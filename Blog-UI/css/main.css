@@ -20,12 +20,18 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-h1{
+body {
+    font-family: soleil, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+h1 {
     text-align: center;
     height: 50px;
-    font-family: soleil, Helvetica, Arial, sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-style: italic;
+    font-size: 30px;
+    color: #FF312E;
 }
 
 nav {
@@ -40,7 +46,6 @@ nav {
 nav ul li {
     list-style-type: none;
     display: inline;
-    border: darkred;
     padding: 0px 20px;
     margin: 0px 10px;
 }
@@ -61,7 +66,17 @@ a:hover {
     text-decoration: none;
 }
 
-a:link {
+a:hover {
     text-decoration: none;
+}
+
+.github a img {
+    padding: 4px;
+    border: 3px double black;
+    border-radius: 25px;
+}
+
+.footer-icons a:hover {
+    color: #FF312E;
 }
 
