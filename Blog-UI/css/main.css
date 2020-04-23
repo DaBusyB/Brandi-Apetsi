@@ -35,8 +35,9 @@ h1 {
 }
 
 nav {
+    margin-top: 75px;
     text-align: center;
-    height: 50px;
+    height: 80px;
     font-family: Soleil,Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -48,6 +49,17 @@ nav ul li {
     display: inline;
     padding: 0px 20px;
     margin: 0px 10px;
+}
+
+nav ul li h1 {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 20px;
+    margin: 0px 10px;
+    font-family: enchanted, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;;
 }
 
 a {
