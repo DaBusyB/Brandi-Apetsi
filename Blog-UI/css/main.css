@@ -64,10 +64,12 @@ nav ul li h1 {
 
 a {
     color: #262A28;
+    text-decoration: none;
 }
 
 a:active {
     color: darkred;
+    
 }
 
 a:visited {
@@ -80,6 +82,19 @@ a:hover {
 
 a:hover {
     text-decoration: none;
+}
+
+.nav-search {
+    font-size: 15px;
+    width: 90px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border-radius: 20px;
+    border:1px solid gray;
+}
+
+.nav-search:focus {
+    width: 150px;
 }
 
 .github a img {
