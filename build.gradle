@@ -1,4 +1,0 @@
-
-task webpack(type: Exec) {
-    commandLine "$projectDir/node_modules/.bin/webpack", "app/index.js", "$buildDir/js/bundle.js"
-}
