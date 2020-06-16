@@ -111,20 +111,36 @@ a:hover {
 }
 
 .left-side {
-    border: 1px solid red;
     width: 40%;
     display: flex;
     justify-content: center;
 }
 
 .right-side {
-    border: 1px solid blue;
     width: 40%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-side p {
+    width: 70%;
+    padding-bottom: 3%;
 }
 
 .content-container {
-    border: 1px solid orange;
     padding: 2% 0% 2% 0%;
+}
+
+.right-side ul {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+
+.right-side ul li:hover {
+    color:#3CABE3;
+    font-weight: bold;
 }
