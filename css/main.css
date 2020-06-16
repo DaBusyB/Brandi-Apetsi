@@ -20,6 +20,8 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+/* Header */
+
 body {
     font-family: soleil, Helvetica, Arial, sans-serif;
     font-weight: 300;
@@ -101,3 +103,44 @@ a:hover {
     color: #FF312E;
 }
 
+/* body */
+.left-right-sides {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left-side {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-side {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-side p {
+    width: 70%;
+    padding-bottom: 3%;
+}
+
+.content-container {
+    padding: 2% 0% 2% 0%;
+}
+
+.right-side ul {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+
+.right-side ul li:hover {
+    color:#3CABE3;
+    font-weight: bold;
+}
