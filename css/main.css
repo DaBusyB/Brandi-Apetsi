@@ -78,7 +78,7 @@ a:hover {
 
 .nav-search {
     font-size: 15px;
-    width: 90px;
+    width: 150px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     border-radius: 20px;
@@ -88,8 +88,8 @@ a:hover {
     font-style: normal;
 }
 
-.nav-search:focus {
-    width: 150px;
+.nav-search:hover {
+    width: 250px;
     outline: none;
 }
 
