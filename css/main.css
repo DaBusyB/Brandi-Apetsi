@@ -20,26 +20,36 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-/* Header */
-
 body {
     font-family: soleil, Helvetica, Arial, sans-serif;
     font-weight: 300;
     font-style: normal;
 }
 
+
+/* Nav Area */
 nav {
-    margin-top: 75px;
+    margin-top: 45px;
     text-align: center;
-    height: 80px;
+    height: 150px;
     border-bottom: 1px solid darkgrey;
+    /* border: 5px dotted orange */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    /* border:1px solid blue; */
 }
 
 header nav ul li {
     list-style-type: none;
-    display: inline;
     padding: 0px 20px;
     margin: 0px 10px;
+
+    /* border:1px solid blue; */
 }
 
 header nav ul li h1 {
@@ -53,6 +63,18 @@ header nav ul li h1 {
     font-size: 50px;
     color: #FF312E;
     font-style: italic;
+}
+
+.nav-contacts-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border:1px solid orange; */
+}
+
+.nav-site-links {
+    display: flex;
+    /* border:1px solid orange; */
 }
 
 a {
@@ -92,6 +114,8 @@ a:hover {
     width: 250px;
     outline: none;
 }
+
+/* Section-1 */
 
 .github a img {
     padding: 4px;
@@ -144,3 +168,13 @@ a:hover {
     color:#3CABE3;
     font-weight: bold;
 }
+
+/* Section-2 */
+
+
+/* Footer */
+
+/* test*/
+
+
+
