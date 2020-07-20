@@ -1,4 +1,3 @@
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,8 +25,7 @@ body {
     font-style: normal;
 }
 
-
-/* Nav Area */
+/* Nav */
 nav {
     margin-top: 45px;
     text-align: center;
@@ -121,60 +119,24 @@ a:hover {
     border-radius: 25px;
 }
 
-/* Section-1 */
+/* Blog */
 
-.footer-icons a:hover {
-    color: #FF312E;
-}
-
-/* body */
-.left-right-sides {
+.blog-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
-.left-side {
-    width: 40%;
-    display: flex;
-    justify-content: center;
+.blog-posts {
+    width: 85%;
+    border-right: 1px solid darkgrey;
+    align-items: center;
+    /* border: 1px solid red; */
 }
 
-.right-side {
-    width: 40%;
+.recent-posts {
+    width: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* border: 1px solid red; */
 }
-
-.right-side p {
-    width: 70%;
-    padding-bottom: 3%;
-}
-
-.content-container {
-    padding: 2% 0% 2% 0%;
-}
-
-.right-side ul {
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style-type: none;
-}
-
-.right-side ul li:hover {
-    color:#3CABE3;
-    font-weight: bold;
-}
-
-/* Section-2 */
-
-
-/* Footer */
-
-/* test*/
-
-
-
