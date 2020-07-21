@@ -33,6 +33,8 @@ nav {
     text-align: center;
     height: 150px;
     border-bottom: 1px solid darkgrey;
+    /* position:fixed;
+    top:0; */
     /* border: 5px dotted orange */
 }
 
@@ -96,6 +98,11 @@ a:hover {
 
 a:hover {
     text-decoration: none;
+}
+
+.home {
+    text-decoration: underline;
+    color: #FF312E;
 }
 
 .nav-search {
@@ -173,6 +180,11 @@ a:hover {
 
 
 /* Footer */
+
+footer {
+    border: 1px solid orange;
+    height: 100px;
+}
 
 /* test*/
 
