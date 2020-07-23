@@ -12,81 +12,115 @@
 </head>
     <body>
         <header>
-            <nav>
+            <nav class='top-nav-bar'>
                 <ul>
                     <li>
-                        <a class="home" href="#"><h1>Brandi Apetsi</h1></a>
-                    </li>
-                    <li>
-                        <a href="#">BLOG</a>
-                    </li>
-                    <li>
-                        <a href="#">PROJECTS</a>
-                    </li>
-                    <li>
-                        <a href="#">ABOUT</a>
-                    </li>
-                    <li>
-                        <a href="#">CONTACT</a>
-                    </li>
-                    <li>
-                        <a href="#">ARCHIVES</a>
+                        <a class="home" href="www.brandiapetsi.com"><h1>Brandi Apetsi</h1></a>
                     </li>
 
-                    <input class="nav-search" name="search" type="text" placeholder="Search...">
+                    <div class='nav-site-links'>
 
-                    <li class="icon github">
-                        <a href="https://github.com/DaBusyB" target="_blank"><img src="./resources/png/logo-github.svg" alt="Github icon"></a>
-                    </li>
-                    <li class="icon">
-                        <a href="https://twitter.com/DaBusyB" target="_blank"><img src="./resources/png/004-twitter.png" alt="Twitter icon"></a>
-                    </li>
-                    <li class="icon">
-                        <a href="https://www.linkedin.com/in/brandi-apetsi/" target="_blank"><img src="./resources/png/001-linkedin.png" alt="LinkedIn icon"></a>
-                    </li>
-                    <li class="icon">
-                        <a href="https://www.instagram.com/brandi_apetsi/" target="_blank"><img src="./resources/png/002-instagram.png" alt="Instagram icon"></a>
-                    </li>
-                    <li class="icon">
-                        <a href="#" target="_blank"><img src="./resources/png/email.png" alt="Email icon"></a>
-                    </li>
+                        <li>
+                            <a href="#">BLOG</a>
+                        </li>
+                        <li>
+                            <a href="#">RESUME</a>
+                        </li>
+                        <li>
+                            <a href="#">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="#">CONTACT</a>
+                        </li>
+                        <li>
+                            <a href="#">ARCHIVES</a>
+                        </li>
+
+                        <input class="nav-search" name="search" type="text" placeholder="Search...">
+                    </div>
+
+                    <div class='nav-contacts-links'>
+                        <li class="icon github">
+                            <a href="https://github.com/DaBusyB" target="_blank"><img src="./resources/png/logo-github.svg" alt="Github icon"></a>
+                        </li>
+                        <li class="icon">
+                            <a href="https://twitter.com/DaBusyB" target="_blank"><img src="./resources/png/004-twitter.png" alt="Twitter icon"></a>
+                        </li>
+                        <li class="icon">
+                            <a href="https://www.linkedin.com/in/brandi-apetsi/" target="_blank"><img src="./resources/png/001-linkedin.png" alt="LinkedIn icon"></a>
+                        </li>
+                        <li class="icon">
+                            <a href="https://www.instagram.com/brandi_apetsi/" target="_blank"><img src="./resources/png/002-instagram.png" alt="Instagram icon"></a>
+                        </li>
+                        <li class="icon">
+                            <a href="#" target="_blank"><img src="./resources/png/email.png" alt="Email icon"></a>
+                        </li>
+                    </div>
 
                 </ul>
             </nav>
         </header>
 
-        <section class="content-container">
-            <div class="left-right-sides">
-                <div class="left-side">
-                    <img src="./resources/20190113_164217 copy.jpg" class="brandi-pic w3-card-4" alt="">
-                </div>
+        <div class='home-page'>
+            <section class="content-container section-1">
+                <div class="left-right-sides">
+                    <div class="left-side">
+                        <img src="./resources/20190113_164217 copy.jpg" class="brandi-pic w3-card-4" alt="">
+                    </div>
 
-                <div class="right-side vertical-menu">
-                    <h1>Hey! I'm Brandi </h1>
-                    <h3>Thanks for taking the time to visit my site</h3>
-                    <p>
-                        I am a Front-End developer from Washington D.C. and currently living in NC. Building clean and responsive user interfaces while occasionally tinkering on the back-end are my favorite things to do.
-                    </p>
+                    <div class="right-side vertical-menu">
+                        <h1>Hey! I'm Brandi </h1>
+                        <h3>Thanks for taking the time to visit my site</h3>
+                        <p>
+                            I am a Front-End developer from Washington D.C. and currently living in NC. Building clean and responsive user interfaces while occasionally tinkering on the back-end are my favorite things to do.
+                        </p>
 
-                    <h3>
-                        Tech I'm Using:
-                    </h3>
-                    <ul>
-                        <li>JavaScript</li>
-                        <li>Node</li>
-                        <li>CSS & HTML</li>
-                        <li>LESS</li>
-                        <li>Flexbox</li>
-                        <li>...and I'm always open to learning more!</li>
-                    </ul>
+                        <h3>
+                            Tech I'm Using:
+                        </h3>
+                        <ul>
+                            <li>JavaScript</li>
+                            <li>Node</li>
+                            <li>CSS & HTML</li>
+                            <li>LESS</li>
+                            <li>Flexbox</li>
+                            <li>...and I'm always open to learning more!</li>
+                        </ul>
+                    </div>
                 </div>
+            </section><!-- content-container -->
+
+            <section class='project-container section-2'>
+
+            </section><!-- 'project-container section-2' -->
+        </div>
+
+        
+        <div class='blog-container'>
+
+            <div class='blog-posts'>
+                <div id="dib-posts"></div>
             </div>
-        </section><!-- content-container -->
+    
+            <div class='recent-posts'>
+                <h1 class='blog-section-titles'>Recent Posts</h1>
+                <div id="dib-recent-post-list"></div>
+            </div>
+    
+        </div>
+        
 
         <footer>
             <p class="footer-resources">resources made by <a href="https://www.flaticon.com/authors/roundresources">Roundresources</a> from <a href="https://www.flaticon.com/home">FLATICON</a></p>
         </footer>
 
         <script src="./js/main.js"></script>
+        <script>
+            var dib_id = 'B0KI4JTBBIZWDUHXHKUV';
+            var dib_recent_post_list = 3;
+        </script>
+        <script src="https://dropinblog.com/js/embed.js"></script>
+
+
     </body>
 </html>
