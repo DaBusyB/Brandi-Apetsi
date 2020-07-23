@@ -179,6 +179,35 @@ a:hover {
 /* Section-2 */
 
 
+/* Blog */
+.blog-section-titles {
+    margin-top: 35px;
+    font-size: 35px;
+    text-decoration: underline;
+
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-posts {
+    width: 80%;
+    border-right: 1px solid darkgrey;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.recent-posts {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+
 /* Footer */
 
 footer {

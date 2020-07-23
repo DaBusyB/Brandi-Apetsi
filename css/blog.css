@@ -120,7 +120,7 @@ a:hover {
 }
 
 /* Blog */
-h1 {
+.blog-section-titles {
     margin-top: 35px;
     font-size: 35px;
     text-decoration: underline;
