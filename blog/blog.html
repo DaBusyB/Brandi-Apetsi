@@ -74,6 +74,57 @@
 
     </div>
 
+    <div class='contact-button'>
+        <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+        <script>
+            window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+            formbutton("create", {
+                title: "Let's Connect!",
+                styles: {
+                    fontFamily:'Helvitica, arial, sans-serif',
+                    button: {
+                        background: "#C4001A"
+                    },
+                    title: {
+                        background: "#C4001A",
+                        letterSpacing: "0.05em",
+                        textTransform: "uppercase"
+                    }
+                },
+                fields: [{
+                        name: "company",
+                        type: "text",
+                        label: "Company",
+                        placeholder: "Watchmen",
+                        required: true,
+                    },
+                    {
+                        name: "name",
+                        type: "text",
+                        label: "Name",
+                        placeholder: "Angela Abar",
+                        required: true,
+                    },
+                    {
+                        name: "email",
+                        type: "email",
+                        label: "Email",
+                        placeholder: "Abar@watchmen.com",
+                        required: true,
+                    },
+                    {
+                        name: "Message",
+                        type: "textarea",
+                        label: "Leave a Message",
+                        placeholder: "Dear Brandi, You're so awesome...",
+                    },
+                    {
+                        type: "submit"
+                }],
+            })
+        </script>
+    </div>
+
     <script>
         var dib_id = 'B0KI4JTBBIZWDUHXHKUV';
         var dib_recent_post_list = 3;

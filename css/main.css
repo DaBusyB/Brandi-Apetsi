@@ -179,6 +179,13 @@ a:hover {
 /* Section-2 */
 
 
+/* Contact Button */
+.contact-button {
+    position:fixed;
+    right: 0;
+    bottom: 0;
+}
+
 /* Blog */
 .blog-section-titles {
     margin-top: 35px;
@@ -205,6 +212,13 @@ a:hover {
     flex-direction: column;
     align-items: center;
     /* border: 1px solid red; */
+}
+
+/* Contact Button */
+.contact-button {
+    position:fixed;
+    right: 10px;
+    bottom: 10px;
 }
 
 /* Footer */
