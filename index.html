@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- logo -->
     <link rel="icon" type="image/png" href="./resources/png/favicon.png">
     <link rel="stylesheet" href="./css/main.css">
@@ -15,13 +17,13 @@
 </head>
     <body>
         <header>
-            <nav class='top-nav-bar'>
+            <nav class="top-nav-bar">
                 <ul>
                     <li>
                         <a class="home" href="./index.html"><h1>Brandi Apetsi</h1></a>
                     </li>
 
-                    <div class='nav-site-links'>
+                    <div class="nav-site-links">
 
                         <li>
                             <a href="./blog/blog.html">BLOG</a>
@@ -42,7 +44,7 @@
                         <input class="nav-search" name="search" type="text" placeholder="Search...">
                     </div>
 
-                    <div class='nav-contacts-links'>
+                    <div class="nav-contacts-links">
                         <li class="icon github">
                             <a href="https://github.com/DaBusyB" target="_blank"><img src="./resources/png/logo-github.svg" alt="Github icon"></a>
                         </li>
@@ -65,20 +67,21 @@
         </header>
 
         <section class="content-container section-1">
+
             <div class="left-right-sides">
                 <div class="left-side">
                     <img src="./resources/20190113_164217 copy.jpg" class="brandi-pic w3-card-4" alt="">
                 </div>
 
                 <div class="right-side vertical-menu">
-                    <h1>Hey! I'm Brandi </h1>
+                    <h1>Hey! I"m Brandi </h1>
                     <h3>Thanks for taking the time to visit my site</h3>
                     <p>
                         I am a Front-End developer from Washington D.C. and currently living in NC. Building clean and responsive user interfaces while occasionally tinkering on the back-end are my favorite things to do.
                     </p>
 
                     <h3>
-                        Tech I'm Using:
+                        Tech I"m Using:
                     </h3>
                     <ul>
                         <li>JavaScript</li>
@@ -86,17 +89,39 @@
                         <li>CSS & HTML</li>
                         <li>LESS</li>
                         <li>Flexbox</li>
-                        <li>...and I'm always open to learning more!</li>
+                        <li>...and I"m always open to learning more!</li>
                     </ul>
                 </div>
             </div>
         </section><!-- content-container -->
 
-        <section class='project-container section-2'>
+        <section class="project-container section-2">
 
-        </section><!-- 'project-container section-2' -->
+            <div class="project-nav">
 
-        <div class='contact-button'>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./resources/sqlite370_banner.gif" class="card-img-top" alt="sqlite icon">
+                <div class="card-inner-border">
+                    <div class="card-body">
+                        <h5 class="card-title">ContactsAPI</h5>
+                        <p class="card-text">An API to maintain contacts.</p>
+                        <ul class="tech-used">
+                            <li>JavaScript</li>
+                            <li>Express</li>
+                            <li>Node</li>
+                            <li>Knex</li>
+                            <li>NPM Modules</li>
+                        </ul>
+                        <a href="https://github.com/DaBusyB/contactsAPI" target=”_blank” class="btn btn-primary">View in Github</a>
+                    </div>
+                </div>
+            </div>
+
+        </section><!-- "project-container section-2" -->
+
+        <div class="contact-button">
             <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
             <script>
                 window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
@@ -127,7 +152,7 @@
                             name: "Message",
                             type: "textarea",
                             label: "Leave a Message",
-                            placeholder: "Dear Brandi, You're so awesome...",
+                            placeholder: "Dear Brandi, You"re so awesome...",
                         },
                         {
                             type: "submit"
@@ -139,9 +164,9 @@
         <footer>
             <header>
 
-                <nav class='footer-bar'>
+                <nav class="footer-bar">
                     <ul>
-                        <div class='nav-site-links'>
+                        <div class="nav-site-links">
     
                             <li>
                                 <a href="./blog/blog.html">Popular Blog Posts</a>
@@ -159,7 +184,7 @@
 
         <script src="./js/main.js"></script>
         <!-- <script>
-            var dib_id = 'B0KI4JTBBIZWDUHXHKUV';
+            var dib_id = "B0KI4JTBBIZWDUHXHKUV";
             var dib_recent_post_list = 3;
         </script>
         <script src="https://dropinblog.com/js/embed.js"></script> -->
