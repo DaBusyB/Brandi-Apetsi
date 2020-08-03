@@ -187,7 +187,8 @@ header nav ul div .nav-search:hover {
     margin: 15px 0px 15px 0px;
 }
 
-.tech-used {
+.tech-im-using {
+    color: #FF312E;
     text-decoration: underline;
 }
 
@@ -256,9 +257,11 @@ header nav ul div .nav-search:hover {
 }
 
 .tech-used {
-    color: #FF312E;
+    color: black;
     list-style-type: none;
     margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .card-body a {
