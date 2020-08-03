@@ -126,7 +126,7 @@ header nav ul div .nav-search:hover {
 
 .github a img {
     padding: 4px;
-    border: 3px double black;
+    border: 3px double #262A28;
     border-radius: 25px;
 }
 
@@ -203,6 +203,10 @@ header nav ul div .nav-search:hover {
     font-size: 25px;;
 }
 
+.section-1 .right-side ul .learning-more {
+    color: #262A28;
+}
+
 .pulsate-2 {
     -webkit-animation: pulsate 2s ease-out;
     -webkit-animation-iteration-count: infinite;
@@ -238,15 +242,34 @@ header nav ul div .nav-search:hover {
 }
 
 .project-nav {
-    border-top: 1px solid #FF312E;
-    border-bottom: 1px solid #FF312E;
-    height: 40px;
-    margin-bottom: 10px;
+    border-top: 2px solid #FF312E;
+    border-bottom: 2px solid #FF312E;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
+
+.project-nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.project-nav ul li:hover {
+    color: #3CABE3;
+    font-size: 25px;
+}
+
+/*  */
+.toggle-view {
+    display: block;
+}
+/*  */
 
 .card-inner-border {
     padding: 10px;
-    border:1px solid #FF312E;
+    /* border:1px solid #FF312E; */
 }
 
 .card-body {
@@ -316,8 +339,3 @@ footer {
     border-top:1px solid gray;
     height: 20px;
 }
-
-/* test*/
-
-
-
