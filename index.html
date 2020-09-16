@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- logo -->
     <link rel="icon" type="image/png" href="./resources/png/favicon.png">
-    <link rel="stylesheet" href="./css/main.css">
+    <!-- LESS  -->
+    <link rel="stylesheet" href="./dist/main.css" type="text/css" />
+    <script src="http://lesscss.googlecode.com/files/less-1.0.30.min.js"></script>
     <!-- font -->
     <link rel="stylesheet" href="https://use.typekit.net/hfd5ksu.css">
     <!-- adsense -->
@@ -27,7 +29,7 @@
                     <div class="nav-site-links">
 
                         <li>
-                            <a href="./blog/blog.html">BLOG</a>
+                            <a href="./src/blog.html">BLOG</a>
                         </li>
 
                         <li>
@@ -42,7 +44,7 @@
                             <a href="./blog/blog.html?p=about-me">ABOUT</a>
                         </li>
 
-                        <input class="nav-search" name="search" type="text" placeholder="Search...">
+                        <!-- <input class="nav-search" name="search" type="text" placeholder="Search..."> -->
                     </div>
 
                     <div class="nav-social-media-links">
@@ -87,7 +89,7 @@
                         Tech I'm Using:
                     </h3>
                     <ul>
-                        <li class='pulsate-4'>JavaScript</li>
+                        <li class='pulsate-4'>JavaScript * React</li>
                         <li class='pulsate-2'>Node * SQLite * Express</li>
                         <li class='pulsate-4'>CSS & HTML</li>
                         <li class='pulsate-2'>LESS</li>
@@ -106,33 +108,54 @@
             <div class="project-nav">
                 <ul>
                     <li class='all'>All projects</li>
-                    <li class='js'>JavaScript</li>
+                    <!-- <li class='js'>JavaScript</li>
                     <li class='node'>Node</li>
                     <li class='db'>Databases</li>
                     <li class='api'>APIs</li>
                     <li class='less'>LESS</li>
-                    <li class='flexbox'>Flexbox</li>
+                    <li class='flexbox'>Flexbox</li> -->
                 </ul>
             </div>
+            <div class='cards-container'>
 
-            <div class="card" style="width: 18rem;">
-                <img src="./resources/sqlite370_banner.gif" class="card-img-top" alt="sqlite icon">
-                <div class="card-inner-border">
-                    <div class="card-body">
-                        <h5 class="card-title">ContactsAPI</h5>
-                        <p class="card-text">An API to maintain contacts.</p>
-                        <ul class="tech-used">
-                            <li>JavaScript</li>
-                            <li>Express</li>
-                            <li>Node</li>
-                            <li>Knex</li>
-                            <li>NPM Modules</li>
-                        </ul>
-                        <a href="https://github.com/DaBusyB/contactsAPI" target=”_blank” class="btn btn-primary">View in Github</a>
+                <div class="card" style="width: 18rem;">
+                    <a href="hhttps://github.com/DaBusyB/contactsAPI" target="_blank">
+                        <img src="./resources/sqlite370_banner.gif" class="card-img-top" alt="sqlite icon">
+                    </a>
+                    <div class="card-inner-border">
+                        <div class="card-body">
+                            <h5 class="card-title">ContactsAPI</h5>
+                            <p class="card-text">An API to maintain contacts.</p>
+                            <ul class="tech-used">
+                                <li>JavaScript</li>
+                                <li>Express</li>
+                                <li>Node</li>
+                                <li>Knex</li>
+                                <li>NPM Modules</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
 
+                <div class="card" style="width: 18rem;">
+                    <a href="https://movie-nominator.vercel.app/" target="_blank">
+                        <img src="./resources/png/MovieNomImg.png" alt="app snapshot">
+                    </a>
+                    <div class="card-inner-border">
+                        <div class="card-body">
+                            <h5 class="card-title">Movie Nominator</h5>
+                            <p class="card-text">Nominate Your Favorite Movie for an Award</p>
+                            <ul class="tech-used">
+                                <li>React</li>
+                                <li>React Hooks</li>
+                                <li>Axios</li>
+                                <li>Flexbox</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </section><!-- "project-container section-2" -->
 
 

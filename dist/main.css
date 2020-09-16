@@ -196,9 +196,9 @@ header nav ul .nav-social-media-links .github a img {
 }
 .section-1 .left-right-sides .left-side .brandi-pic {
   border-radius: 8px;
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .section-1 .left-right-sides .right-side {
   width: 40%;
@@ -287,20 +287,35 @@ header nav ul .nav-social-media-links .github a img {
   color: #3CABE3;
   font-size: 25px;
 }
-.section-2 .card .card-inner-border {
+.section-2 .cards-container {
+  display: flex;
+  flex-direction: row;
+}
+.section-2 .cards-container .card {
+  margin: 0 10px 0 10px;
+}
+.section-2 .cards-container .card img {
+  width: 100%;
+  height: 150px;
+}
+.section-2 .cards-container .card .card-inner-border {
   padding: 10px;
   /* border:1px solid #FF312E; */
 }
-.section-2 .card .card-inner-border .card-body {
+.section-2 .cards-container .card .card-inner-border .card-body {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #ACD9EA;
 }
-.section-2 .card .card-inner-border .card-body a {
+.section-2 .cards-container .card .card-inner-border .card-body a {
   margin-top: 10px;
 }
-.section-2 .card .card-inner-border .card-body .tech-used {
+.section-2 .cards-container .card .card-inner-border .card-body .card-title {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.section-2 .cards-container .card .card-inner-border .card-body .tech-used {
   color: black;
   list-style-type: none;
   margin-top: 10px;
@@ -341,6 +356,9 @@ header nav ul .nav-social-media-links .github a img {
 }
 .blog-container .recent-posts #dib-recent-post-list ul li {
   margin: 20px;
+}
+.blog-container .recent-posts #dib-recent-post-list ul li a {
+  font-weight: bold;
 }
 /* Contact Button */
 .contact-button {
